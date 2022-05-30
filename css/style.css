@@ -110,10 +110,6 @@ h3 {
 /*     Header         */
 /**********************/
 .main {
-  background: url(/assets/portfolio-bg.png);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
   width: 100%;
   height: 92vh;
   display: flex;
@@ -224,6 +220,29 @@ h3 {
 }
 .about_img img:hover{
   transform: scale(1.1);
+}
+
+.first-project{
+  color: #fff;
+}
+
+.cv-download{
+  padding: 10px 20px;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+
+.cv-download:hover{
+  background-color:rgb(248, 216, 176);
+}
+
+.cv-download a{
+  text-decoration: none;
+  color: #000;
+}
+.cv-download a:hover{
+  color: #fff;
+  text-decoration: underline;
 }
 
 .aboutus {
